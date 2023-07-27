@@ -37,7 +37,7 @@ async def ytsearch(_, message: Message):
         if len(message.command) < 2:
             return await message.reply_text("» ɢɪᴠᴇ sᴏᴍᴇ ᴛᴇxᴛ ᴛᴏ sᴇᴀʀᴄʜ ʙᴀʙʏ !")
         query = message.text.split(None, 1)[1]
-        m = await message.reply_text("🔎")
+        m = await message.reply_text("🐝")
         results = YoutubeSearch(query, max_results=4).to_dict()
         i = 0
         text = ""
