@@ -56,8 +56,7 @@ pm_buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="☁️ sᴏᴜʀᴄᴇ ☁️", url="https://github.com/AnonymousX1025/FallenMusic"
-        ),
+            text="☁️ sᴏᴜʀᴄᴇ ☁️", url="https://graph.org/file/1fee8ceb89c94c60440b7.jpg"
         InlineKeyboardButton(text="🥀 ᴅᴇᴠᴇʟᴏᴩᴇʀ 🥀", user_id=config.OWNER_ID),
     ],
 ]
